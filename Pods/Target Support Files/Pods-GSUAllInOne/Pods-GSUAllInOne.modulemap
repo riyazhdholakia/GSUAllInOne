@@ -1,0 +1,6 @@
+framework module Pods_GSUAllInOne {
+  umbrella header "Pods-GSUAllInOne-umbrella.h"
+
+  export *
+  module * { export * }
+}

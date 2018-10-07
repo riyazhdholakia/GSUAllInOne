@@ -8,22 +8,71 @@
 
 /* Begin PBXBuildFile section */
 		2F70FCF12168F8410017B9C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70FCF02168F8410017B9C6 /* AppDelegate.swift */; };
-		2F70FCF32168F8410017B9C6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70FCF22168F8410017B9C6 /* FirstViewController.swift */; };
-		2F70FCF52168F8410017B9C6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70FCF42168F8410017B9C6 /* SecondViewController.swift */; };
+		2F70FCF32168F8410017B9C6 /* ParkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70FCF22168F8410017B9C6 /* ParkingViewController.swift */; };
+		2F70FCF52168F8410017B9C6 /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70FCF42168F8410017B9C6 /* TicketsViewController.swift */; };
 		2F70FCF82168F8410017B9C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F70FCF62168F8410017B9C6 /* Main.storyboard */; };
 		2F70FCFA2168F84E0017B9C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F70FCF92168F84E0017B9C6 /* Assets.xcassets */; };
 		2F70FCFD2168F84E0017B9C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F70FCFB2168F84E0017B9C6 /* LaunchScreen.storyboard */; };
+		2F70FD052168FF0E0017B9C6 /* LoginSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70FD042168FF0E0017B9C6 /* LoginSignUpViewController.swift */; };
+		2F70FD072168FFF00017B9C6 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70FD062168FFF00017B9C6 /* RewardsViewController.swift */; };
+		2F70FD092169004B0017B9C6 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70FD082169004A0017B9C6 /* SocialViewController.swift */; };
+		2F70FD0B216900690017B9C6 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70FD0A216900690017B9C6 /* SettingsViewController.swift */; };
+		2FE2BAD82169416E00BFBF7F /* SCSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2BAD72169416E00BFBF7F /* SCSDKCoreKit.framework */; };
+		2FE2BAD92169416E00BFBF7F /* SCSDKCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2BAD72169416E00BFBF7F /* SCSDKCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2FE2BADE2169418D00BFBF7F /* SCSDKCreativeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2BADB2169418D00BFBF7F /* SCSDKCreativeKit.framework */; };
+		2FE2BADF2169418D00BFBF7F /* SCSDKCreativeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2BADB2169418D00BFBF7F /* SCSDKCreativeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2FE2BAE02169418D00BFBF7F /* SCSDKBitmojiKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2BADC2169418D00BFBF7F /* SCSDKBitmojiKit.framework */; };
+		2FE2BAE12169418D00BFBF7F /* SCSDKBitmojiKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2BADC2169418D00BFBF7F /* SCSDKBitmojiKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2FE2BAE22169418D00BFBF7F /* SCSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2BADD2169418D00BFBF7F /* SCSDKLoginKit.framework */; };
+		2FE2BAE32169418D00BFBF7F /* SCSDKLoginKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2FE2BADD2169418D00BFBF7F /* SCSDKLoginKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2FE2BAE52169A4A400BFBF7F /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2BAE42169A4A400BFBF7F /* RootNavigationController.swift */; };
+		2FE2BAE72169B30500BFBF7F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2FE2BAE62169B30500BFBF7F /* GoogleService-Info.plist */; };
+		2FE2BAE9216A2A8C00BFBF7F /* FindParkingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2BAE8216A2A8C00BFBF7F /* FindParkingTableViewController.swift */; };
+		2FE2BAEB216A2E8000BFBF7F /* ReportParkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2BAEA216A2E8000BFBF7F /* ReportParkingViewController.swift */; };
+		7F073D5D12E1E4EE7411588A /* Pods_GSUAllInOne.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C5B938D3F8674426CFC5DF /* Pods_GSUAllInOne.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2FE2BADA2169416E00BFBF7F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2FE2BAE32169418D00BFBF7F /* SCSDKLoginKit.framework in Embed Frameworks */,
+				2FE2BAD92169416E00BFBF7F /* SCSDKCoreKit.framework in Embed Frameworks */,
+				2FE2BAE12169418D00BFBF7F /* SCSDKBitmojiKit.framework in Embed Frameworks */,
+				2FE2BADF2169418D00BFBF7F /* SCSDKCreativeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2F70FCED2168F8410017B9C6 /* GSUAllInOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSUAllInOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F70FCF02168F8410017B9C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F70FCF22168F8410017B9C6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2F70FCF42168F8410017B9C6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2F70FCF22168F8410017B9C6 /* ParkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingViewController.swift; sourceTree = "<group>"; };
+		2F70FCF42168F8410017B9C6 /* TicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
 		2F70FCF72168F8410017B9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F70FCF92168F84E0017B9C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F70FCFC2168F84E0017B9C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F70FCFE2168F84E0017B9C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F70FD042168FF0E0017B9C6 /* LoginSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignUpViewController.swift; sourceTree = "<group>"; };
+		2F70FD062168FFF00017B9C6 /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
+		2F70FD082169004A0017B9C6 /* SocialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
+		2F70FD0A216900690017B9C6 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2FE2BAD72169416E00BFBF7F /* SCSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCSDKCoreKit.framework; path = Pods/SnapSDK/SCSDKCoreKit.framework; sourceTree = "<group>"; };
+		2FE2BADB2169418D00BFBF7F /* SCSDKCreativeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCSDKCreativeKit.framework; path = Pods/SnapSDK/SCSDKCreativeKit.framework; sourceTree = "<group>"; };
+		2FE2BADC2169418D00BFBF7F /* SCSDKBitmojiKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCSDKBitmojiKit.framework; path = Pods/SnapSDK/SCSDKBitmojiKit.framework; sourceTree = "<group>"; };
+		2FE2BADD2169418D00BFBF7F /* SCSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SCSDKLoginKit.framework; path = Pods/SnapSDK/SCSDKLoginKit.framework; sourceTree = "<group>"; };
+		2FE2BAE42169A4A400BFBF7F /* RootNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
+		2FE2BAE62169B30500BFBF7F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2FE2BAE8216A2A8C00BFBF7F /* FindParkingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindParkingTableViewController.swift; sourceTree = "<group>"; };
+		2FE2BAEA216A2E8000BFBF7F /* ReportParkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportParkingViewController.swift; sourceTree = "<group>"; };
+		65A360CBFC56707B3A5645E7 /* Pods-GSUAllInOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSUAllInOne.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSUAllInOne/Pods-GSUAllInOne.debug.xcconfig"; sourceTree = "<group>"; };
+		C7C5B938D3F8674426CFC5DF /* Pods_GSUAllInOne.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSUAllInOne.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF1C4DFE5E8682CCB009403 /* Pods-GSUAllInOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSUAllInOne.release.xcconfig"; path = "Pods/Target Support Files/Pods-GSUAllInOne/Pods-GSUAllInOne.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +80,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FE2BAE22169418D00BFBF7F /* SCSDKLoginKit.framework in Frameworks */,
+				7F073D5D12E1E4EE7411588A /* Pods_GSUAllInOne.framework in Frameworks */,
+				2FE2BAD82169416E00BFBF7F /* SCSDKCoreKit.framework in Frameworks */,
+				2FE2BADE2169418D00BFBF7F /* SCSDKCreativeKit.framework in Frameworks */,
+				2FE2BAE02169418D00BFBF7F /* SCSDKBitmojiKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +94,14 @@
 		2F70FCE42168F8400017B9C6 = {
 			isa = PBXGroup;
 			children = (
+				2FE2BADC2169418D00BFBF7F /* SCSDKBitmojiKit.framework */,
+				2FE2BADB2169418D00BFBF7F /* SCSDKCreativeKit.framework */,
+				2FE2BADD2169418D00BFBF7F /* SCSDKLoginKit.framework */,
+				2FE2BAD72169416E00BFBF7F /* SCSDKCoreKit.framework */,
 				2F70FCEF2168F8410017B9C6 /* GSUAllInOne */,
 				2F70FCEE2168F8410017B9C6 /* Products */,
+				3310A01C8D494DA36C043A2E /* Pods */,
+				41A2FEDCE92E2C977B97E4D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +117,39 @@
 			isa = PBXGroup;
 			children = (
 				2F70FCF02168F8410017B9C6 /* AppDelegate.swift */,
-				2F70FCF22168F8410017B9C6 /* FirstViewController.swift */,
-				2F70FCF42168F8410017B9C6 /* SecondViewController.swift */,
+				2F70FCF22168F8410017B9C6 /* ParkingViewController.swift */,
+				2FE2BAE62169B30500BFBF7F /* GoogleService-Info.plist */,
+				2F70FCF42168F8410017B9C6 /* TicketsViewController.swift */,
+				2F70FD062168FFF00017B9C6 /* RewardsViewController.swift */,
+				2F70FD082169004A0017B9C6 /* SocialViewController.swift */,
+				2FE2BAE42169A4A400BFBF7F /* RootNavigationController.swift */,
+				2F70FD0A216900690017B9C6 /* SettingsViewController.swift */,
 				2F70FCF62168F8410017B9C6 /* Main.storyboard */,
+				2FE2BAEA216A2E8000BFBF7F /* ReportParkingViewController.swift */,
+				2FE2BAE8216A2A8C00BFBF7F /* FindParkingTableViewController.swift */,
+				2F70FD042168FF0E0017B9C6 /* LoginSignUpViewController.swift */,
 				2F70FCF92168F84E0017B9C6 /* Assets.xcassets */,
 				2F70FCFB2168F84E0017B9C6 /* LaunchScreen.storyboard */,
 				2F70FCFE2168F84E0017B9C6 /* Info.plist */,
 			);
 			path = GSUAllInOne;
+			sourceTree = "<group>";
+		};
+		3310A01C8D494DA36C043A2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65A360CBFC56707B3A5645E7 /* Pods-GSUAllInOne.debug.xcconfig */,
+				CBF1C4DFE5E8682CCB009403 /* Pods-GSUAllInOne.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		41A2FEDCE92E2C977B97E4D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7C5B938D3F8674426CFC5DF /* Pods_GSUAllInOne.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F70FD012168F84F0017B9C6 /* Build configuration list for PBXNativeTarget "GSUAllInOne" */;
 			buildPhases = (
+				E100EB6D5DB4E1143E76E494 /* [CP] Check Pods Manifest.lock */,
 				2F70FCE92168F8410017B9C6 /* Sources */,
 				2F70FCEA2168F8410017B9C6 /* Frameworks */,
 				2F70FCEB2168F8410017B9C6 /* Resources */,
+				0480E262172AD7B876133E7D /* [CP] Embed Pods Frameworks */,
+				2FE2BADA2169416E00BFBF7F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F70FCFD2168F84E0017B9C6 /* LaunchScreen.storyboard in Resources */,
+				2FE2BAE72169B30500BFBF7F /* GoogleService-Info.plist in Resources */,
 				2F70FCFA2168F84E0017B9C6 /* Assets.xcassets in Resources */,
 				2F70FCF82168F8410017B9C6 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +222,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0480E262172AD7B876133E7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GSUAllInOne/Pods-GSUAllInOne-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKBitmojiKit.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKCoreKit.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKCreativeKit.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKBitmojiKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKCreativeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSUAllInOne/Pods-GSUAllInOne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E100EB6D5DB4E1143E76E494 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSUAllInOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F70FCE92168F8410017B9C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F70FCF52168F8410017B9C6 /* SecondViewController.swift in Sources */,
+				2FE2BAE9216A2A8C00BFBF7F /* FindParkingTableViewController.swift in Sources */,
+				2F70FD072168FFF00017B9C6 /* RewardsViewController.swift in Sources */,
+				2FE2BAE52169A4A400BFBF7F /* RootNavigationController.swift in Sources */,
+				2FE2BAEB216A2E8000BFBF7F /* ReportParkingViewController.swift in Sources */,
+				2F70FD052168FF0E0017B9C6 /* LoginSignUpViewController.swift in Sources */,
+				2F70FD0B216900690017B9C6 /* SettingsViewController.swift in Sources */,
+				2F70FCF52168F8410017B9C6 /* TicketsViewController.swift in Sources */,
+				2F70FD092169004B0017B9C6 /* SocialViewController.swift in Sources */,
 				2F70FCF12168F8410017B9C6 /* AppDelegate.swift in Sources */,
-				2F70FCF32168F8410017B9C6 /* FirstViewController.swift in Sources */,
+				2F70FCF32168F8410017B9C6 /* ParkingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +354,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -262,6 +416,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -284,10 +439,15 @@
 		};
 		2F70FD022168F84F0017B9C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65A360CBFC56707B3A5645E7 /* Pods-GSUAllInOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7L7L58P37;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/SnapSDK",
+				);
 				INFOPLIST_FILE = GSUAllInOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,10 +462,15 @@
 		};
 		2F70FD032168F84F0017B9C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF1C4DFE5E8682CCB009403 /* Pods-GSUAllInOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P7L7L58P37;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/SnapSDK",
+				);
 				INFOPLIST_FILE = GSUAllInOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
